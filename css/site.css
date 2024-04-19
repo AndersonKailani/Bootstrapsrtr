@@ -1,0 +1,240 @@
+#registration {
+    background-color: #ffbfd8;
+    padding: 20px;
+    border: 2px solid rgb(255, 147, 210);
+
+}
+
+#login {
+    background-color: #ffbfd8;
+    padding: 20px;
+    border: 2px solid rgb(255, 147, 210);
+
+}
+
+a.text-navy {
+    font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+    color: deeppink;
+
+}
+
+div.card {
+    background-color: #ffbfd8;
+    padding: 20px;
+    border: 2px solid rgb(255, 147, 210);
+    font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+    text-align: center;
+    grid-template-columns: repeat(auto-fill, 250px);
+    display: flex;
+}
+
+#products {
+    background-color: #ffbfd8;
+    padding: 20px;
+    border: 2px solid rgb(255, 147, 210);
+
+}
+
+.overlay {
+
+    position: absolute;
+
+    top: 12%;
+    left: -1%;
+
+    width: 100%;
+    height: 2%;
+    z-index: 10;
+
+    opacity: .7;
+}
+
+div.ibox {
+    background-color: #ffbfd8;
+    padding: 20px;
+    border: 2px solid rgb(255, 147, 210);
+}
+
+div.col-md-3 {
+    background-color: #ffbfd8;
+    padding: 20px;
+    border: 2px solid rgb(255, 147, 210);
+
+    width: 100%;
+    height: 2%;
+
+
+
+}
+
+.carousel-inner {
+    width: 100%;
+    max-height: 200px !important;
+}
+
+body {
+    margin-top: 20px;
+    background-color: #f1f3f7;
+}
+
+.avatar-lg {
+    height: 5rem;
+    width: 5rem;
+}
+
+.font-size-18 {
+    font-size: 18px !important;
+}
+
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.w-xl {
+    min-width: 160px;
+}
+
+.card {
+    margin-bottom: 24px;
+    -webkit-box-shadow: 0 2px 3px #e4e8f0;
+    box-shadow: 0 2px 3px #e4e8f0;
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #eff0f2;
+    border-radius: 1rem;
+}
+
+h1 {
+    color: gold;
+    shape-rendering: crispEdges;
+    padding: 30px;
+    text-align: center;
+    background: #ff9dce;
+    color: rgb(15, 13, 13);
+    font-size: 60px;
+    font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+
+}
+
+form {
+
+    background-color: #ffbfd8;
+    padding: 20px;
+    border: 2px solid rgb(255, 147, 210);
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0%;
+}
+
+a.navbar-brand {
+    color: rgb(253, 58, 172);
+
+}
+
+ol {
+    list-style: none;
+    counter-reset: olCounter;
+}
+
+li {
+    counter-increment: olCounter;
+}
+
+li button::before {
+    content: counter(olCounter) ". ";
+}
+
+
+p {
+    padding: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Lucida Handwriting", "Brush Script MT", cursive
+}
+
+button {
+    background: #ff9dce;
+    padding: 0%;
+
+    display: block;
+    width: 100px;
+
+    margin: 0 auto;
+}
+
+h2 {
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Lucida Handwriting", "Brush Script MT", cursive
+}
+
+.fadein img {
+    opacity: 0.5;
+    transition: 1s ease;
+}
+
+.fadein img:hover {
+    opacity: 1;
+    transition: 1s ease;
+}
+
+img {
+    display: flex;
+
+    flex-wrap: wrap;
+    object-fit: cover;
+    flex: 1 1 150px;
+}
